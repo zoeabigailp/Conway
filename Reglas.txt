@@ -1,0 +1,7 @@
+## REGLAS DE CONWAY ##
+
+* Cualquier célula viva con dos o tres vecinos vivos sobrevive.
+
+* Cualquier célula muerta con tres vecinos vivos se convierte en una célula viva.
+
+* Todas las demás células vivas mueren en la próxima generación. Del mismo modo, todas las demás células muertas permanecen muertas.
