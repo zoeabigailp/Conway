@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1727198123 source:c:\users\zoe perez\desktop\universidad\topicosprogramacion\jcv2\juegoconwayv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
