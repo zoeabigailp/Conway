@@ -10,8 +10,6 @@ int * configuracionInicial()
         return NULL;
     }
 
-    do
-    {
         printf("******** CONFIGURAR TABLERO ********");
         printf("\n\n\n");
 
@@ -23,12 +21,18 @@ int * configuracionInicial()
         printf("\nIngrese cantidad de coumnas [5-60]: \t");
         scanf("%d", &valores[1]);
 
+        while(valores[0] < 5 || valores[0] > 60){
+            printf("\nIngrese nuevamente la cantidad de filas: \t");
+            scanf("%d", &valores[0]);
+        }
+        while(valores[1] < 5 || valores[1] > 60){
+            printf("\nIngrese nuevamente la cantidad de columnas: \t");
+            scanf("%d", &valores[1]);
+        }
+
         printf("\n\n\n");
         printf("************************************\n");
         system("cls");
-
-    }
-    while( (valores[0] < 5 || valores[0]>=60) || (valores[1] < 5 || valores[1]>=60) );
 
     return valores;
 }
