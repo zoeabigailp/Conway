@@ -1,0 +1,25 @@
+# Archivos de compilación y binarios
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.tmp
+
+# Archivos de configuración específicos del IDE
+*.cbp
+*.layout
+*.depend
+*.workspace
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de backup y editor
+*.bak
+*.swp
+
+# Carpeta de dependencias y módulos
+node_modules/
+vendor/
